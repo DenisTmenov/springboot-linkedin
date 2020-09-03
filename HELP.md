@@ -17,3 +17,5 @@ The following guides illustrate how to use some features concretely:
 * [Building REST services with Spring](https://spring.io/guides/tutorials/bookmarks/)
 * [Handling Form Submission](https://spring.io/guides/gs/handling-form-submission/)
 
+
+docker run --rm --name pg-docker -e POSTGRES_PASSWORD=postgres -e POSTGRES_DB=springboot_linkedin -d -p 5432:5432 postgres
